@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "typescript": "3.6.1-rc"
+  },
+  "scripts": {
+    "build": "tsc ts/site.ts --outFile wwwroot/js/site.js"
+  },
+  "devDependencies": {
+  }
+}
